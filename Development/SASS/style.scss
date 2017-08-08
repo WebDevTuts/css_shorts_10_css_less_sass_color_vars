@@ -20,13 +20,14 @@ h1 {
 }
 
 $color_1: #fff;
+$color_2: #ff00de;
 
 .neon {
 	text-shadow:
 		-2px -2px 10px $color_1,
 		2px 2px 20px $color_1,
-		0 0 40px #ff00de,
-		0 0 70px #ff00de,
-		0 0 80px #ff00de,
-		0 0 100px #ff00de;
+		0 0 40px $color_2,
+		0 0 70px $color_2,
+		0 0 80px $color_2,
+		0 0 100px $color_2;
 }
